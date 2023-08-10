@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="img/logo.png" alt="Music Player">Music Player</li>
+            <li>Home</li>
+            <!-- <li>About</li> -->
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="SongList">
+            <h1>Weekly Top Songs</h1>
+            <div class="songitemcontainer">
+               
+                <div class="SongItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span><img id="0" class="SongItemPlay play" src="img/plays.png" alt="play"></span>
+                    </span>
+                </div>
+                <div class="SongItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span><img id="1" class="SongItemPlay play" src="img/plays.png" alt="play"></span>
+                    </span>
+                </div>
+                <div class="SongItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span><img id="2" class="SongItemPlay play" src="img/plays.png" alt="play"></span>
+                    </span>
+                </div>
+                <div class="SongItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span><img id="3" class="SongItemPlay play" src="img/plays.png" alt="play"></span>
+                    </span>
+                </div>
+                <div class="SongItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span><img id="4" class="SongItemPlay play" src="img/plays.png" alt="play"></span>
+                    </span>
+                </div>
+                <div class="SongItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span><img id="5" class="SongItemPlay play" src="img/plays.png" alt="play"></span>
+                    </span>
+                </div>
+                <div class="SongItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span><img id="6" class="SongItemPlay play" src="img/plays.png" alt="play"></span>
+                    </span>
+                </div>
+                <div class="SongItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span><img id="7" class="SongItemPlay play" src="img/plays.png" alt="play"></span>
+                    </span>
+                </div>
+                
+          
+                
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="MyProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <img id="previous" src="img/pre.jpg" alt="pre">
+            <img src="img/play.jpg" alt="play" id="MasterPlay" class="MasterPlay">
+            <img src="img/pause.png" alt="play" id="MasterPause" class="MasterPause">
+            <img id="next" src="img/next.jpg" alt="next">
+        </div>
+        <div class="SongInfo">
+            <img src="img/playing.gif" width="50px" id="gif"> <span id="MasterSongName">Zihaal e Miskin</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <span class="timestamp">5:34</span> -->
